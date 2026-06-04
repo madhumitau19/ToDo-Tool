@@ -1,0 +1,44 @@
+*{
+  margin: none;
+  padding: none;
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 80px;
+}
+#enter{
+  width: 400px;
+  height: 50px;
+  border: solid 2px pink;
+  border-radius: 20px;
+  position: fixed;
+  top: 20px;
+  left: calc(50vw - 200px);
+  padding-left: 20px;
+  font-size: 20px;
+  outline: none;
+  background-color: white;
+  z-index: 10000;
+  font-family: serif;
+  text-align: center;
+}
+.done{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.delete{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+.star{
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 10px);
+  cursor: pointer;
+}
