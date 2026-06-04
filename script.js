@@ -6,20 +6,6 @@ enter.addEventListener("keydown", (event)=> {
     const newThought = document.createElement('div');
     newThought.innerHTML = `${enteredText} <div class="done">✓</div><div class="delete">✖</div><div class="star">☆</div>`;
     document.body.appendChild(newThought);
-    newThought.style.width = "200px";
-    newThought.style.height = "200px";
-    newThought.style.fontSize = "20px";
-    newThought.style.display = "flex";
-    newThought.style.alignItems = "center";
-    newThought.style.justifyContent = "center";
-    newThought.style.border = "solid 1px grey";
-    newThought.style.borderRadius = "20px";
-    newThought.style.textAlign = "center";
-    newThought.style.margin = "10px";
-    newThought.style.lineHeight = "100%";
-    newThought.style.padding = "10px";
-    newThought.style.position = "relative";
-    
     enter.value = "";
   }
 });

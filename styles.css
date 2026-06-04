@@ -24,6 +24,21 @@ body{
   font-family: serif;
   text-align: center;
 }
+.new-thought{
+  width : 200px;
+  height : 200px;
+  font-size : 20px;
+  display : flex;
+  align-items : center;
+  justify-content: center;
+  border : solid 1px grey;
+  border-radius : 20px;
+  text-align : center;
+  margin : 10px;
+  line-height : 100%;
+  padding : 10px;
+  position : relative;
+}
 .done{
   position: absolute;
   bottom: 10px;
@@ -42,3 +57,19 @@ body{
   left: calc(50% - 10px);
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+    
+  }
+  #enter{
+    width: 250px;
+    left: calc(50vw - 138px)
+  }
+  .new-thought{
+    width: 150px;
+    height: 150px;
+  }
+}
+
