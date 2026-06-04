@@ -4,6 +4,7 @@ enter.addEventListener("keydown", (event)=> {
   if (event.key === 'Enter'){
     let enteredText = enter.value;
     const newThought = document.createElement('div');
+    newThought.classList.add("new-thought")
     newThought.innerHTML = `${enteredText} <div class="done">✓</div><div class="delete">✖</div><div class="star">☆</div>`;
     document.body.appendChild(newThought);
     enter.value = "";
